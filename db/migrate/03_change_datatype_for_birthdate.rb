@@ -3,7 +3,8 @@ class CreateStudents < ActiveRecord::Migration
   def change
     change_column :students do |t|
       t.string :name 
-      t.datetime :
+      t.datetime :birthdate
+      t.
       
   end
 end
