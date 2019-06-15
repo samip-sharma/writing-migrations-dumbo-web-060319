@@ -4,7 +4,7 @@ class CreateStudents < ActiveRecord::Migration
     change_column :students do |t|
       t.string :name 
       t.datetime :birthdate
-      t.
+      t.integer :grade
       
   end
 end
